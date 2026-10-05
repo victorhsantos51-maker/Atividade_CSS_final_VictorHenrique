@@ -1,26 +1,119 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS teste</title>
     <style>
-        h1 {
-            text-align: center;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
         img {
             width: 300px;
             height: 200px;
         }
+
+        * {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .borda1 {
+            border: 10px solid black;
+            margin: 0 auto;
+        }
+
+        .borda2 {
+            border: 10px solid black;
+            height: 1px;
+            margin: 0 auto;
+        }
+
+        .CSSÉVIDA {
+            color: salmon;
+        }
+
+        .diminuir {
+            font-size: 15px;
+        }
+
+        .cordefundo {
+            background-color: SKYBLUE;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+        }
+
+        .borda3 {
+            border: 10px solid black;
+            margin: 0 auto;
+        }
+
+        .mudarcorfonte {
+            color: hotpink;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        .borda4 {
+            border: 10px solid black;
+            height: 1px;
+            margin: 0 auto;
+        }
+
+        .bordacolorida {
+            background-color: white;
+            border: 2px solid green;
+            font-size: 20px
+        }
+
+        .formatado {
+            color: teal;
+            border: 2px solid green;
+            font-size: 20px;
+            font-family: times new roman;
+            text-decoration: underline;
+        }
+
+        .borda5 {
+            border: 10px solid black;
+            height: 1px;
+            margin: 0 auto;
+        }
+
+        .formatado2 {
+            color: rgb(255, 102, 0);
+            font-weight: bold;
+            font-size: 40px;
+            font-family: verdana;
+            text-decoration: underline;
+            background-color: #5555cc;
+            font-style: italic;
+        }
     </style>
 </head>
+
 <body>
     <h1>PÁGINA TESTE CSS</h1>
-    <hr>
-    <img src="_images/css01.jpg" alt="Imagem de teste CSS"> 
+    <hr class="borda1">
+    <br>
+    <img src="_images/css01.jpg" alt="Imagem de teste CSS">
     <img src="_images/css02.jpg" alt="Imagem de teste CSS">
     <img src="_images/css03.jpg" alt="Imagem de teste CSS">
     <img src="_images/css04.png" alt="Imagem de teste CSS">
+    <hr class="borda2">
+    <br>
+    <h1 class="CSSÉVIDA">CSS É VIDA!</h1>
+    <p class="diminuir">Diversas possibilidades de incrementar seu HTML</p>
+    <h1>Exemplo de Cores no CSS</h1>
+    <p class="cordefundo">Exemplo de texto com cor de fundo</p>
+    <hr class="borda3">
+    <p class="mudarcorfonte">Exemplo de texto com mudança de cor da fonte</p>
+    <hr class="borda4">
+    <p class="bordacolorida">Exemplo de texto com borda colorida</p>
+    <h1>Misturando Tudo</h1>
+    <p class="formatado">Exemplo de texto com varias formatações</p>
+    <hr class="borda5">
+    <p class="formatado2">Mais um exemplo</p>
+
 </body>
+
 </html>
